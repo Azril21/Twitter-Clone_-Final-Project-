@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<style>
+    body {
+     
+        background: url("Images/3255.jpg");
+        background-image: url("Images/3255.jpg");
+        text-align: center;
+    }
+    
+    h1 {
+        color: rgb(15, 33, 44);
+        text-align: center;
+    }
+    
+    p {
+        font-family: verdana;
+        font-size: 30px;
+    }
+    .Top{
+       
+                position: absolute;
+                background: url("Images/300.jpg");
+                top: 50%;
+                left: 50%;
+                transform: translate(-50%,-50%);
+                width: 600px;
+                height: 500px;
+                padding: 30px;
+                background: rgb(78, 135, 145);
+                box-sizing: border-box;
+                border-radius: 10px;
+                box-shadow: 0 15px 50px rgba(0,0,0,.2);
+    }
+    </style>
+<body>
+    <div class="Top">
+    <h1>Twitter Clone Project</h1>
+    <h2>Enjoy Posting your tweets!</h2>
+    <h3>Enter Tweets here</h3>
+    <hr>
+        <a href="/">Home</a> | 
+        <a href="/login">Login</a> | 
+        <a href="/message">Post your Tweets here</a> | 
+
+        <form action="/createUser" method="POST">
+            username: <input type="text" name="username"> <br>
+            password: <input type="text" name="password"> <br>
+            <button>Submit</button>
+        </form>
+    </div> 
+</body>
+</html>
